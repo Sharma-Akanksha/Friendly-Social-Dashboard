@@ -1,0 +1,23 @@
+#header {
+	background-color: #3b5998;/*#4267b2;*/
+}
+
+.white-text{
+	color: white !important;
+}
+
+#wrapper {
+	margin-top: 16px;
+ 	margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+	background-color: #e9ebee;
+ 	height: 600px;
+}
+
+#header ul .glyphicon {
+    font-size: 20px;
+}
