@@ -1,3 +1,8 @@
+body{
+	background-color: #e9ebee;
+ 	height: 600px;
+}
+
 #header {
 	background-color: #3b5998;/*#4267b2;*/
 	height: 0;
@@ -21,11 +26,13 @@
   display: none;
 }
 
-#main,
-#menu,
-#sidebar {
-	background-color: #e9ebee;
- 	height: 600px;
+#menu{
+	font-size: 12px;
+}
+
+#menu i{
+	font-size: 20px;
+	vertical-align: middle;
 }
 
 #header ul .glyphicon , #header ul i {
@@ -62,6 +69,7 @@
   margin-right: 4px;
 }
 
+
 .text-post {
   margin-bottom: 15px;
   margin-top: 0;
@@ -82,3 +90,66 @@ nav#header {
 #header .input-group input[type="text"]{
 	width: 450px;
 }
+
+#menu .nav-pills li a{
+	color: black;
+}
+
+#menu .nav-pills p {
+	font-weight: bold;
+	color: gray;
+}
+
+#menu #active i{
+	color: gray; 
+}
+
+#menu li a:hover{
+	background-color: rgba(255,255,255,0.6);
+}
+
+#menu #active, #menu #active:hover, #menu #active:active, #menu #active:focus{
+	font-weight: bold;
+	background-color: rgba(255,255,255,0.6);
+}
+
+#menu #active i.fa-newspaper{
+	color: #79a6ff;
+}
+
+#menu i.fa-comment-alt {
+	color: #4080ff;
+}
+
+#menu i.fa-calendar-alt{
+	color: #f36b7e;
+}
+
+#menu i.fa-images{
+	color: #f8a058;
+}
+
+#menu i.fa-gamepad{
+	color: #79a2af;
+}
+
+#menu i.fa-file{
+	color: #fb734c;
+}
+
+#activity {
+	color: #417aef;
+}
+
+#menu i.fa-code{
+	color: #e64d3e;
+}
+
+#menu i.fa-adn{
+	color: #6bcebb;
+}
+
+#menu .badge {
+	background-color: #c7c1c1; 
+}
+
