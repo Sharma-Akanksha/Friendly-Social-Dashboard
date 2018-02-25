@@ -11,6 +11,14 @@
  	margin-bottom: 16px;
 }
 
+#main {
+  overflow: auto;
+}
+
+#main::-webkit-scrollbar {
+  display: none;
+}
+
 #main,
 #menu,
 #sidebar {
@@ -18,6 +26,25 @@
  	height: 600px;
 }
 
+
 #header ul .glyphicon {
     font-size: 20px;
+}
+
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+
+.panel-body .glyphicon {
+  margin-left: 10px;
+  margin-right: 4px;
+}
+
+.text-post {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.image-post {
+  margin-bottom: 15px;
 }
