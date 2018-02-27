@@ -220,3 +220,7 @@ nav#header {
 #birthday span{
 	color: #f36b7e;
 }
+
+.suggested span {
+	vertical-align: middle;
+}
