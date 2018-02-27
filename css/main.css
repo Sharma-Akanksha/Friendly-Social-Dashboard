@@ -177,3 +177,15 @@ nav#header {
 .navbar-brand{
 	padding: 5px 15px;
 }
+
+.profile{
+	padding-top: 8px;
+}
+
+.like_comment{
+	padding-top: 16px;
+}
+
+.like_comment a{
+	color: black;
+}
