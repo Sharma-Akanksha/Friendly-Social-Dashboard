@@ -39,13 +39,13 @@
 					    <!-- Collect the nav links, forms, and other content for toggling -->
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					      
-						    <form class="navbar-form navbar-left">
+						    <form class="navbar-form navbar-left col-md-7">
 						        <div class="input-group">
 									<input type="text" class="form-control" placeholder="Search..." aria-describedby="basic-addon2">
 									<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
 								</div>
 						    </form>
-					      <ul class="nav navbar-nav navbar-right">
+					      <ul class="nav navbar-nav navbar-right col-md-5">
 					      	<li><a href="#" class="white-text profile"><img src="me.jpg" alt="akanksha"></a></li>
 					        <li><a href="#" class="white-text"> Akanksha</a></li>
 					        <li><a href="#" class="white-text">Home</a></li>
@@ -249,10 +249,16 @@
 									<input placeholder="  Write a comment..." style="width: 100%;margin-top: 15px;" >
 								</div>
 							</div>
+							<div class="load">
+								<button type="button" class="btn btn-default">Load</button>
+							</div>
 	        			</div>
 	        		</div>
 	        		<div class="hidden-xs hidden-sm col-md-3">
 	        			<div id="sidebar">
+	        				<div id="birthday">
+	        					<p><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Anna's birthday is today</p>
+	        				</div>
 	        				<ul class="nav nav-tabs" role="tablist">
 	                            <li role="presentation" class="active">
 	                              <a href="#top" aria-controls="home" role="tab" data-toggle="tab">
@@ -307,5 +313,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+		$(document).ready(function(){
+		    $(".btn").click(function(){
+		        $(this).button('loading');
+		    });   
+		});
+	</script>
   </body>
 </html>

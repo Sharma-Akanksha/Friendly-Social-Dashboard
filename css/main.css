@@ -4,8 +4,8 @@ body{
 }
 
 #header {
-	background-color: #3b5998;/*#4267b2;*/
-	height: 0;
+	background-color: #3b5998;
+	/*height: 0;*/
 	text-align: center;
 }
 
@@ -82,10 +82,10 @@ body{
 .comment {
 	margin: 0;
 }
-
+/*
 nav#header {
 	padding: 0 100px;
-}
+}*/
 
 #header .input-group input[type="text"]{
 	width: 450px;
@@ -179,7 +179,7 @@ nav#header {
 }
 
 .profile{
-	padding-top: 8px;
+	padding-top: 8px !important;
 }
 
 .like_comment{
@@ -188,4 +188,35 @@ nav#header {
 
 .like_comment a{
 	color: black;
+}
+
+.buttonload {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 24px; /* Some padding */
+    font-size: 16px; /* Set a font-size */
+}
+
+.load{
+	text-align: center;
+}
+
+.load button{
+	width: 22%;
+}
+
+#birthday {
+	padding: 6px 11px;
+    background-color: #fff;
+    height: 32px;
+    margin-bottom: 5px;
+}
+
+#birthday p:hover{
+	background-color: #e9ebee;
+}
+
+#birthday span{
+	color: #f36b7e;
 }
