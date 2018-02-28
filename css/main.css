@@ -18,6 +18,14 @@ body{
  	margin-bottom: 16px;
 }
 
+#header .input-group input[type="text"]{
+	width: 450px;
+}
+
+#header .navbar-right >li a{
+	padding-right: 2px;
+}
+
 #main {
   overflow: auto;
 }
@@ -46,9 +54,7 @@ body{
     border-top: 6px solid #000000;
 }
 
-#header .navbar-right >li a{
-	padding-right: 2px;
-}
+
 
 #header .navbar-right .dropdown >a, #header .navbar-right .dropdown li a{
 
@@ -87,9 +93,6 @@ nav#header {
 	padding: 0 100px;
 }*/
 
-#header .input-group input[type="text"]{
-	width: 450px;
-}
 
 #menu .nav-pills li a{
 	color: black;
@@ -250,3 +253,31 @@ nav#header {
 	padding: 6px 15px 2px 15px;
 
 }
+
+@media (max-width: 575px){
+	.notify{
+		margin-top: 16px;
+	}
+
+	.fa-question-circle{
+		padding-top: 20px;
+	}
+
+	.dropdown .dropdown-menu li a {
+		color: white!important;
+	}
+
+	#header .navbar-right .dropdown >a:active, #header .navbar-right .dropdown >a:hover, #header .navbar-right .dropdown >a:focus{
+		background: transparent !important;
+	}
+
+	.navbar-right > li {
+		text-align: left;
+	}
+}
+
+/*
+@media (min-width: 992px) {
+	
+}*/
+
