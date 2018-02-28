@@ -224,3 +224,29 @@ nav#header {
 .suggested span {
 	vertical-align: middle;
 }
+
+#top span, #movie span, #sports span{
+	font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+#top p, #movie p, #sports p{
+	padding-left: 15px;
+    color: #222;
+}
+
+#top a, #movie a, #sports a{
+	text-decoration: none;
+}
+
+#top p > span, #movie p > span, #sports p > span{
+	color: gray;
+	font-size: 12px;
+}
+
+.list-group-item{
+	border: 0;
+	padding: 6px 15px 2px 15px;
+
+}
